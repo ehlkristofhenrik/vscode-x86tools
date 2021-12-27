@@ -1,0 +1,57 @@
+{
+    "x86ToolsProc":{
+        "prefix": "!x86proc",
+        "body": [
+            "procedure:",
+            "   push ebp",
+            "   mov  ebp,esp",
+            "   sub  esp,0",
+            "   ; Code",
+            "   add  esp,0",
+            "   mov  esp,ebp",
+            "   pop  ebp",
+            "   ret"
+        ],
+        "description": "Snippet for x86 cdecl procedure",
+    },
+    "x86ToolsUnixArg0":{
+        "prefix": "!u0",
+        "body"  : "rdi"
+    },
+    "x86ToolsUnixArg1":{
+        "prefix": "!u1",
+        "body": "rsi"
+    },
+    "x86ToolsUnixArg2":{
+        "prefix": "!u2",
+        "body": "rdx"
+    },
+    "x86ToolsUnixArg3":{
+        "prefix": "!u3",
+        "body": "rcx"
+    },
+    "x86ToolsUnixArg4":{
+        "prefix": "!u4",
+        "body": "r8"
+    },
+    "x86ToolsUnixArg5":{
+        "prefix": "!u5",
+        "body": "r9"
+    },
+    "x86ToolsWinArg0":{
+        "prefix": "!w0",
+        "body"  : "rcx"
+    },
+    "x86ToolsWinArg1":{
+        "prefix": "!w1",
+        "body": "rdx"
+    },
+    "x86ToolsWinArg2":{
+        "prefix": "!w2",
+        "body": "r8"
+    },
+    "x86ToolsWinArg3":{
+        "prefix": "!w3",
+        "body": "r9"
+    },
+}
